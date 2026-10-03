@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": 5,
+    "badge": "Popular",
+    "description": "A JavaScript library for building user interfaces.",
+    "icon": "/icons/react.png"
+  },
+  {
+    "id": 2,
+    "name": "Vue",
+    "category": "Frontend",
+    "level": "Beginner",
+    "rating": 4,
+    "badge": "Easy",
+    "description": "A progressive JavaScript framework for building interfaces.",
+    "icon": "/icons/vue.png"
+  },
+  {
+    "id": 3,
+    "name": "Angular",
+    "category": "Frontend",
+    "level": "Advanced",
+    "rating": 4,
+    "badge": "Powerful",
+    "description": "A complete frontend framework for large applications.",
+    "icon": "/icons/angular.png"
+  },
+  {
+    "id": 4,
+    "name": "Node.js",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": 5,
+    "badge": "Popular",
+    "description": "A JavaScript runtime for building backend applications.",
+    "icon": "/icons/node.png"
+  },
+  {
+    "id": 5,
+    "name": "Express",
+    "category": "Backend",
+    "level": "Beginner",
+    "rating": 4,
+    "badge": "Simple",
+    "description": "A lightweight backend framework for Node.js.",
+    "icon": "/icons/express.png"
+  },
+  {
+    "id": 6,
+    "name": "Next.js",
+    "category": "Fullstack",
+    "level": "Intermediate",
+    "rating": 5,
+    "badge": "Trending",
+    "description": "A React framework for full-stack web applications.",
+    "icon": "/icons/next.png"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "category": "Database",
+    "level": "Beginner",
+    "rating": 4,
+    "badge": "NoSQL",
+    "description": "A document-based NoSQL database.",
+    "icon": "/icons/mongodb.png"
+  },
+  {
+    "id": 8,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 5,
+    "badge": "Reliable",
+    "description": "A powerful relational database system.",
+    "icon": "/icons/postgresql.png"
+  },
+  {
+    "id": 9,
+    "name": "TypeScript",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": 5,
+    "badge": "Recommended",
+    "description": "JavaScript with static type checking.",
+    "icon": "/icons/typescript.png"
+  },
+  {
+    "id": 10,
+    "name": "Python",
+    "category": "Language",
+    "level": "Beginner",
+    "rating": 5,
+    "badge": "Popular",
+    "description": "A simple and powerful general-purpose programming language.",
+    "icon": "/icons/python.png"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "level": "Beginner",
+    "rating": 5,
+    "badge": "Fast",
+    "description": "A utility-first CSS framework for building interfaces.",
+    "icon": "/icons/tailwind.png"
+  },
+  {
+    "id": 12,
+    "name": "Git",
+    "category": "Tool",
+    "level": "Beginner",
+    "rating": 5,
+    "badge": "Essential",
+    "description": "A version control system for tracking code changes.",
+    "icon": "/icons/git.png"
+  }
+]

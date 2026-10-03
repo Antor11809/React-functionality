@@ -1,13 +1,26 @@
 
+
+import Technologies from "./components/Technologies";
+import Nav from "./components/Nav";
+import { Suspense } from 'react';
+import TechnologyCard from "./components/TechnologyCard";
+
+
+const techFetch = async () => {
+  const res = await fetch("/data.json");
+  const data = await res.json();
+
+  return data;
+};
+
 function App() {
-
-
+  const techPromise = techFetch();
   return (
     <>
-    <div className="flex justify-center">
-      <p className="font-bold text-amber-300">Lets get start it!!!</p>
-    </div>
- 
+    <Nav/>
+    <Suspense fallback={<p>Loading...</p>}>
+      <Technologies techPromise={techPromise} />
+    </Suspense>
     </>
   )
 }
