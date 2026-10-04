@@ -12,7 +12,7 @@ const SelectedStack = ({
   handleRemoveAll,
 }: SelectedStackProps) => {
   return (
-    <div className="mt-10 border rounded-xl p-5">
+    <div className="mt-10 border border-red-600 rounded-xl p-5">
       <div className="flex items-center justify-between mb-5">
         <div>
           <h2 className="text-2xl font-bold">Your Stack</h2>
@@ -23,7 +23,7 @@ const SelectedStack = ({
 
         <button
           onClick={handleRemoveAll}
-          className="px-4 py-2 border rounded-lg hover:bg-gray-100"
+          className="px-4 py-2 border rounded-lg hover:bg-gray-100 font-bold"
         >
           Remove All
         </button>
@@ -35,13 +35,13 @@ const SelectedStack = ({
             key={tech.id}
             className="flex items-center gap-2 border rounded-full px-4 py-2"
           >
-            <span>{tech.name}</span>
+            <span className="font-bold">{tech.name}</span>
 
             <button
               onClick={() => handleRemoveFromStack(tech.id)}
               className="font-bold"
             >
-              X
+              x
             </button>
           </div>
         ))}
