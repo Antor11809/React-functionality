@@ -3,7 +3,6 @@
 import Technologies from "./components/Technologies";
 import Nav from "./components/Nav";
 import { Suspense } from 'react';
-import TechnologyCard from "./components/TechnologyCard";
 
 
 const techFetch = async () => {
@@ -17,6 +16,7 @@ function App() {
   const techPromise = techFetch();
   return (
     <>
+    
     <Nav/>
     <Suspense fallback={<p>Loading...</p>}>
       <Technologies techPromise={techPromise} />
